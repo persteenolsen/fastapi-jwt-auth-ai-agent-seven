@@ -230,10 +230,11 @@ async def chat(
 
     try:
 
-        logger.info(
-            "Chat request received from user: %s",
-            user,
-        )
+        # 02-11-2026 - Logging user info is disabled for privacy reasons.
+        #logger.info(
+        #    "Chat request received from user: %s",
+        #    user,
+        #)
 
         # ----------------------------------------------------
         # SHARED SIMPLY.COM MCP CLIENT

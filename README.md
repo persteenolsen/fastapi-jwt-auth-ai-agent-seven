@@ -363,7 +363,7 @@ From the root of the powershell run:
 
 python -m integrations.initial_simply_oauth
 
-Make sure that initial auth towards have been completed!
+Make sure that initial simply auth was completed!
 
 There must be tokens / credentials in the PostgreSQL!
 
@@ -371,7 +371,7 @@ There must be tokens / credentials in the PostgreSQL!
 
 # ▶️ Running the Application
 
-Make sure that initial auth towards have been completed!
+Make sure that initial simply auth was been completed!
 
 There must be tokens / credentials in the PostgreSQL!
 
@@ -379,7 +379,7 @@ If there is no valid credentials / row in the PostgreSQL, then run:
 
 python -m integrations.initial_simply_oauth
 
-That will perform the initial auth towards simply MCP
+That will perform the initial auth towards simply MCP OAuth 2.1
 
 Start the FastAPI backend:
 
@@ -409,7 +409,7 @@ OpenAPI schema:
 4. Swagger stores the JWT bearer token.
 5. Use the protected API endpoints.
 
-## Future Vue SPA Authentication
+## Vue SPA Authentication
 
 1. Login using `/login-spa`.
 2. Receive a JWT.
@@ -427,7 +427,7 @@ OpenAPI schema:
     User Question
           |
           v
-      Future Vue 3 Frontend
+      Vue 3 Frontend
           |
           v
       FastAPI Backend
@@ -464,7 +464,7 @@ Simply.com MCP requests use the shared OAuth manager to obtain valid access toke
 
 # 🏗️ Architecture
 
-The application combines a FastAPI backend with a planned Vue 3 frontend.
+The application combines a FastAPI backend with a Vue 3 frontend.
 
 ## Backend Responsibilities
 

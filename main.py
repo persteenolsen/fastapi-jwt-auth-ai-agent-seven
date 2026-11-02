@@ -79,7 +79,7 @@ async def lifespan(app: FastAPI):
 app = FastAPI(
     title=(
         "FastAPI with JWT Authentication and a "
-        "LangChain AI Agent for Simply.com Private MCP"
+        "LangChain AI Agent for Simply.com MCP OAuth 2.1 and Wikipedia"
     ),
     description=(
         "02-11-2026 - FastAPI with JWT authentication and a "
