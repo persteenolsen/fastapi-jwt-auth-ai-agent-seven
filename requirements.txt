@@ -1,0 +1,27 @@
+
+langchain==0.3.27
+langchain-core==0.3.75
+langchain-community==0.3.27
+langchain-groq==0.3.8
+
+# MCP integration
+langchain-mcp-adapters==0.1.14
+mcp==1.30.0
+
+# API
+fastapi==0.111.1
+uvicorn==0.34.0
+
+# Configuration and authentication
+python-dotenv==1.0.1
+PyJWT==2.10.1
+
+# HTTP
+requests==2.31.0
+
+# PostgreSQL at Neon
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.10
+numpy==2.2.1
+
+httpx==0.28.1
