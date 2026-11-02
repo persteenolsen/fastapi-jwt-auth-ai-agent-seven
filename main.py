@@ -86,7 +86,7 @@ app = FastAPI(
         "Groq-powered LangChain agent using Simply.com "
         "private MCP tools and Wikipedia. "
         "Includes automatic Simply.com OAuth 2.1 "
-        "token refreshing with PostgreSQL persistence."
+        "token refreshing with PostgreSQL persistence"
     ),
     version="0.0.5",
     contact={
