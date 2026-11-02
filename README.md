@@ -417,7 +417,7 @@ OpenAPI schema:
 5. Access protected endpoints, including `/chat`.
 
 ---
-
+```
 # 🧠 Agent Workflow
 
     User Question
@@ -449,7 +449,7 @@ OpenAPI schema:
           |
           v
        API Response
-
+```
 The agent selects the appropriate tool based on the user's question.
 
 If no external information is required, the LLM answers directly.
