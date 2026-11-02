@@ -6,6 +6,10 @@ The application provides a REST API for interacting with an AI agent that dynami
 
 The backend integrates with Simply.com's authenticated Model Context Protocol (MCP) server, allowing the AI agent to interact with approved Simply.com account and domain-management functionality.
 
+The companion Vue 3 Single Page Application (SPA) provides an authenticated chat interface for interacting with the agent and visualizing its workflow.
+
+**Vue Frontend:** https://github.com/persteenolsen/vue-fastapi-jwt-auth-ai-agent-seven
+
 ---
 
 # 📌 Project Information
@@ -476,7 +480,7 @@ The application combines a FastAPI backend with a planned Vue 3 frontend.
 
 ## Frontend Responsibilities
 
-The planned Vue 3 application will provide:
+The Vue 3 application provides:
 
 - JWT authentication
 - Chat interface
@@ -596,7 +600,6 @@ Never retrieve or display actual token values when performing routine diagnostic
 - Demo authentication system
 - Single-agent workflow
 - Limited Simply.com tools enabled through the read-only allowlist
-- Future Vue 3 frontend not yet integrated
 - Single Simply.com OAuth credential record
 
 ---
@@ -612,7 +615,6 @@ Never retrieve or display actual token values when performing routine diagnostic
 - Monitoring and observability
 - Improved error handling
 - Expanded automated testing
-- Vue 3 frontend integration
 
 ---
 
@@ -636,7 +638,7 @@ Main goals:
 
 This project demonstrates how FastAPI, OpenAPI / Swagger, JWT authentication, LangChain, Groq LLMs, PostgreSQL, Neon, and Simply.com MCP integration can be combined to create a modern AI agent backend.
 
-The backend exposes a REST API while a companion Vue 3 SPA is planned to provide an authenticated interface for interacting with the AI agent and visualizing its workflow.
+The backend exposes a REST API while a companion Vue 3 SPA provides an authenticated interface for interacting with the AI agent and visualizing its workflow.
 
 Simply.com OAuth credentials are persisted in PostgreSQL, with automatic token refreshing and synchronized database updates.
 
