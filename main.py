@@ -82,7 +82,7 @@ app = FastAPI(
         "LangChain AI Agent for Simply.com MCP OAuth 2.1 and Wikipedia"
     ),
     description=(
-        "02-11-2026 - FastAPI with JWT authentication and a "
+        "03-11-2026 - FastAPI with JWT authentication and a "
         "Groq-powered LangChain agent using Simply.com "
         "private MCP tools and Wikipedia. "
         "Includes automatic Simply.com OAuth 2.1 "
