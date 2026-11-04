@@ -15,7 +15,7 @@ The companion Vue 3 Single Page Application (SPA) provides an authenticated chat
 # 📌 Project Information
 
 - Version: 0.0.5
-- Last Updated: 03-11-2026
+- Last Updated: 04-11-2026
 - Python: 3.12
 - Framework: FastAPI
 - API Documentation: OpenAPI / Swagger
@@ -275,7 +275,7 @@ Example when a tool is used:
           {
             "action": "list-subdomains",
             "action_input": {
-              "domain": "persteenolsen.com"
+              "domain": "mydomainatsimply.com"
             },
             "observation": "Retrieved subdomain information..."
           }
