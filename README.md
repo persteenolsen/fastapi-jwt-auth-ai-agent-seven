@@ -10,8 +10,7 @@ The companion Vue 3 Single Page Application (SPA) provides an authenticated chat
 
 **Vue Frontend:** https://github.com/persteenolsen/vue-fastapi-jwt-auth-ai-agent-seven
 
-[![M8ven Score](https://m8ven.ai/badge/mcp/persteenolsen-fastapi-jwt-auth-ai-agent-seven-1nhuhx?v=a8a655eaa235b96a9d155c65aae87a81)](https://m8ven.ai/mcp/persteenolsen-fastapi-jwt-auth-ai-agent-seven-1nhuhx?s=readme)
-
+[![M8ven Score](https://m8ven.ai/badge/mcp/persteenolsen/fastapi-jwt-auth-ai-agent-seven)](https://m8ven.ai/mcp/persteenolsen/fastapi-jwt-auth-ai-agent-seven?s=readme)
 
 ---
 
