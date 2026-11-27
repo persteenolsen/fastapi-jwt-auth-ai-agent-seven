@@ -17,7 +17,7 @@ The companion Vue 3 Single Page Application (SPA) provides an authenticated chat
 # 📌 Project Information
 
 - Version: 0.0.5
-- Last Updated: 19-11-2026
+- Last Updated: 27-11-2026
 - Python: 3.12
 - Framework: FastAPI
 - API Documentation: OpenAPI / Swagger
